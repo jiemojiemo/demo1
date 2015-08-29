@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63735D1C1B8C031600DAEFBF /* CAudioTimeSandPitchS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63735D161B8C031600DAEFBF /* CAudioTimeSandPitchS.cpp */; };
+		63735D1D1B8C031600DAEFBF /* CFFT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63735D181B8C031600DAEFBF /* CFFT.cpp */; };
+		63735D1E1B8C031600DAEFBF /* CWavread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63735D1A1B8C031600DAEFBF /* CWavread.cpp */; };
+		63735D281B8C032F00DAEFBF /* new_record_save_process_playMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63735D1F1B8C032F00DAEFBF /* new_record_save_process_playMain.cpp */; };
+		63735D291B8C032F00DAEFBF /* record.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63735D211B8C032F00DAEFBF /* record.cpp */; };
+		63735D2A1B8C032F00DAEFBF /* recordaudioplayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63735D241B8C032F00DAEFBF /* recordaudioplayer.cpp */; };
+		D4C7DC461B8C67F800CDC6C1 /* libportaudio.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C7DC451B8C67F800CDC6C1 /* libportaudio.2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		634A1AD01B8AB2AD005E929B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		634A1AD21B8AB2AD005E929B /* PortAutdioTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PortAutdioTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63735D161B8C031600DAEFBF /* CAudioTimeSandPitchS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAudioTimeSandPitchS.cpp; sourceTree = "<group>"; };
+		63735D171B8C031600DAEFBF /* CAudioTimeSandPitchS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAudioTimeSandPitchS.h; sourceTree = "<group>"; };
+		63735D181B8C031600DAEFBF /* CFFT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CFFT.cpp; sourceTree = "<group>"; };
+		63735D191B8C031600DAEFBF /* CFFT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFFT.h; sourceTree = "<group>"; };
+		63735D1A1B8C031600DAEFBF /* CWavread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CWavread.cpp; sourceTree = "<group>"; };
+		63735D1B1B8C031600DAEFBF /* CWavread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWavread.h; sourceTree = "<group>"; };
+		63735D1F1B8C032F00DAEFBF /* new_record_save_process_playMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = new_record_save_process_playMain.cpp; sourceTree = "<group>"; };
+		63735D201B8C032F00DAEFBF /* record_struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = record_struct.h; sourceTree = "<group>"; };
+		63735D211B8C032F00DAEFBF /* record.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = record.cpp; sourceTree = "<group>"; };
+		63735D221B8C032F00DAEFBF /* record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = record.h; sourceTree = "<group>"; };
+		63735D231B8C032F00DAEFBF /* record.raw */ = {isa = PBXFileReference; lastKnownFileType = file; path = record.raw; sourceTree = "<group>"; };
+		63735D241B8C032F00DAEFBF /* recordaudioplayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = recordaudioplayer.cpp; sourceTree = "<group>"; };
+		63735D251B8C032F00DAEFBF /* recordaudioplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recordaudioplayer.h; sourceTree = "<group>"; };
+		63735D261B8C032F00DAEFBF /* recordaudioplayerfactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recordaudioplayerfactory.h; sourceTree = "<group>"; };
+		63735D271B8C032F00DAEFBF /* recordfactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recordfactory.h; sourceTree = "<group>"; };
+		63735D2C1B8C04DA00DAEFBF /* pa_asio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pa_asio.h; path = include/pa_asio.h; sourceTree = "<group>"; };
+		63735D2D1B8C04DA00DAEFBF /* pa_jack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pa_jack.h; path = include/pa_jack.h; sourceTree = "<group>"; };
+		63735D2E1B8C04DA00DAEFBF /* pa_linux_alsa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pa_linux_alsa.h; path = include/pa_linux_alsa.h; sourceTree = "<group>"; };
+		63735D2F1B8C04DA00DAEFBF /* pa_mac_core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pa_mac_core.h; path = include/pa_mac_core.h; sourceTree = "<group>"; };
+		63735D301B8C04DA00DAEFBF /* pa_ringbuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pa_ringbuffer.h; path = include/pa_ringbuffer.h; sourceTree = "<group>"; };
+		63735D311B8C04DA00DAEFBF /* pa_util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pa_util.h; path = include/pa_util.h; sourceTree = "<group>"; };
+		63735D321B8C04DA00DAEFBF /* pa_win_ds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pa_win_ds.h; path = include/pa_win_ds.h; sourceTree = "<group>"; };
+		63735D331B8C04DA00DAEFBF /* pa_win_wasapi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pa_win_wasapi.h; path = include/pa_win_wasapi.h; sourceTree = "<group>"; };
+		63735D341B8C04DA00DAEFBF /* pa_win_waveformat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pa_win_waveformat.h; path = include/pa_win_waveformat.h; sourceTree = "<group>"; };
+		63735D351B8C04DA00DAEFBF /* pa_win_wdmks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pa_win_wdmks.h; path = include/pa_win_wdmks.h; sourceTree = "<group>"; };
+		63735D361B8C04DA00DAEFBF /* pa_win_wmme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pa_win_wmme.h; path = include/pa_win_wmme.h; sourceTree = "<group>"; };
+		63735D371B8C04DA00DAEFBF /* portaudio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = portaudio.h; path = include/portaudio.h; sourceTree = "<group>"; };
+		D4C7DC451B8C67F800CDC6C1 /* libportaudio.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libportaudio.2.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		634A1ACF1B8AB2AD005E929B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C7DC461B8C67F800CDC6C1 /* libportaudio.2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		634A1AC91B8AB2AD005E929B = {
+			isa = PBXGroup;
+			children = (
+				63735D2B1B8C04CA00DAEFBF /* include */,
+				634A1AD41B8AB2AD005E929B /* PortAutdioTest */,
+				634A1AD31B8AB2AD005E929B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		634A1AD31B8AB2AD005E929B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				634A1AD21B8AB2AD005E929B /* PortAutdioTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		634A1AD41B8AB2AD005E929B /* PortAutdioTest */ = {
+			isa = PBXGroup;
+			children = (
+				63735D161B8C031600DAEFBF /* CAudioTimeSandPitchS.cpp */,
+				63735D181B8C031600DAEFBF /* CFFT.cpp */,
+				63735D1A1B8C031600DAEFBF /* CWavread.cpp */,
+				63735D1F1B8C032F00DAEFBF /* new_record_save_process_playMain.cpp */,
+				63735D211B8C032F00DAEFBF /* record.cpp */,
+				63735D241B8C032F00DAEFBF /* recordaudioplayer.cpp */,
+				D4C7DC451B8C67F800CDC6C1 /* libportaudio.2.dylib */,
+				63735D171B8C031600DAEFBF /* CAudioTimeSandPitchS.h */,
+				63735D191B8C031600DAEFBF /* CFFT.h */,
+				63735D1B1B8C031600DAEFBF /* CWavread.h */,
+				63735D201B8C032F00DAEFBF /* record_struct.h */,
+				63735D221B8C032F00DAEFBF /* record.h */,
+				63735D251B8C032F00DAEFBF /* recordaudioplayer.h */,
+				63735D261B8C032F00DAEFBF /* recordaudioplayerfactory.h */,
+				63735D271B8C032F00DAEFBF /* recordfactory.h */,
+				63735D231B8C032F00DAEFBF /* record.raw */,
+			);
+			path = PortAutdioTest;
+			sourceTree = "<group>";
+		};
+		63735D2B1B8C04CA00DAEFBF /* include */ = {
+			isa = PBXGroup;
+			children = (
+				63735D2C1B8C04DA00DAEFBF /* pa_asio.h */,
+				63735D2D1B8C04DA00DAEFBF /* pa_jack.h */,
+				63735D2E1B8C04DA00DAEFBF /* pa_linux_alsa.h */,
+				63735D2F1B8C04DA00DAEFBF /* pa_mac_core.h */,
+				63735D301B8C04DA00DAEFBF /* pa_ringbuffer.h */,
+				63735D311B8C04DA00DAEFBF /* pa_util.h */,
+				63735D321B8C04DA00DAEFBF /* pa_win_ds.h */,
+				63735D331B8C04DA00DAEFBF /* pa_win_wasapi.h */,
+				63735D341B8C04DA00DAEFBF /* pa_win_waveformat.h */,
+				63735D351B8C04DA00DAEFBF /* pa_win_wdmks.h */,
+				63735D361B8C04DA00DAEFBF /* pa_win_wmme.h */,
+				63735D371B8C04DA00DAEFBF /* portaudio.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		634A1AD11B8AB2AD005E929B /* PortAutdioTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634A1AD91B8AB2AD005E929B /* Build configuration list for PBXNativeTarget "PortAutdioTest" */;
+			buildPhases = (
+				634A1ACE1B8AB2AD005E929B /* Sources */,
+				634A1ACF1B8AB2AD005E929B /* Frameworks */,
+				634A1AD01B8AB2AD005E929B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PortAutdioTest;
+			productName = PortAutdioTest;
+			productReference = 634A1AD21B8AB2AD005E929B /* PortAutdioTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		634A1ACA1B8AB2AD005E929B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "郑松银";
+				TargetAttributes = {
+					634A1AD11B8AB2AD005E929B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 634A1ACD1B8AB2AD005E929B /* Build configuration list for PBXProject "PortAutdioTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 634A1AC91B8AB2AD005E929B;
+			productRefGroup = 634A1AD31B8AB2AD005E929B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				634A1AD11B8AB2AD005E929B /* PortAutdioTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		634A1ACE1B8AB2AD005E929B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63735D1D1B8C031600DAEFBF /* CFFT.cpp in Sources */,
+				63735D281B8C032F00DAEFBF /* new_record_save_process_playMain.cpp in Sources */,
+				63735D1C1B8C031600DAEFBF /* CAudioTimeSandPitchS.cpp in Sources */,
+				63735D2A1B8C032F00DAEFBF /* recordaudioplayer.cpp in Sources */,
+				63735D1E1B8C031600DAEFBF /* CWavread.cpp in Sources */,
+				63735D291B8C032F00DAEFBF /* record.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		634A1AD71B8AB2AD005E929B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		634A1AD81B8AB2AD005E929B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		634A1ADA1B8AB2AD005E929B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PortAutdioTest",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		634A1ADB1B8AB2AD005E929B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PortAutdioTest",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		634A1ACD1B8AB2AD005E929B /* Build configuration list for PBXProject "PortAutdioTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634A1AD71B8AB2AD005E929B /* Debug */,
+				634A1AD81B8AB2AD005E929B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634A1AD91B8AB2AD005E929B /* Build configuration list for PBXNativeTarget "PortAutdioTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634A1ADA1B8AB2AD005E929B /* Debug */,
+				634A1ADB1B8AB2AD005E929B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 634A1ACA1B8AB2AD005E929B /* Project object */;
+}
